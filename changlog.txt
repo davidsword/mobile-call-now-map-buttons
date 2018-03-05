@@ -1,0 +1,53 @@
+= 1.4 =
+* Oct 10, 2017
+* Flipped phone icon so it faces the text, inwards
+* Added option to remove phone number sanitizing in advance options for google adwords conversion (thanks @rds91)
+* Added 'Street Address or GPS' location inputs for the map button (thanks @zomb3k)
+* Change version numbering to file modified time in `admin_enqueue_scripts` to help force cache refresh
+
+= 1.3 =
+* July 31, 2017
+* added new "force bottom" SUPPORT option to allow a user to move Mobile buttons to end of document (for themes where wp_footer tag was not properly placed). Moved to bottom with Javascript, 500ms after load.
+* fixed: compress public output css
+* cleaned up description on SUPPORT options, moved to FAQ
+
+= 1.2.2 =
+* July 26, 2017
+* fixed "and/or"
+
+= 1.2.1 =
+* July 26, 2017
+* added support for `+` phone prefix
+* added custom `z-index` input value for self-resolving of plugin/theme conflicts
+* cleaned up line breaks in source code output
+
+= 1.2 =
+* July, 2017
+* added php version to support json string
+* redid version number
+
+= 1.1 =
+* July 6, 2017
+* removed `trim()` within `empty()` which caused fatal php error on < PHP 5.5 setups (thanks for pointing this out D.B.)
+
+= 1.0 =
+* July 5, 2017
+* Project revival! added davidsword as primary contributor, new lead on project
+* fixed: no output unless settings are defined
+* fixed: css and styles in footer, not header
+* fixed: default values for options to prevent undefined errors
+* changed: readme overhauled
+* changed: wrapped plugin in class
+* changed: improved backend interface
+* changed: cleaned up all function and div names
+* changed: verbiage for postal/zip
+* changed: default css to be more robust
+* changed: replaced pixel slider with device-mock sizes
+* changed: replaced third party spectrum colour picker with default native wordpress one
+* changed: new assets
+* changed: from SVG icons to dashicon for color changeable icons
+* added: language localization support
+* added: `rpb_output` filter to output
+* added: custom color select
+
+* Older changlog's available in their respective releases.
