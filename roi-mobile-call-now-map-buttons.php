@@ -279,7 +279,7 @@ class rpb {
 					$my_theme = wp_get_theme();
 					$setup = array(
 							'PHP' => phpversion(),
-							'Wordpress' => $wp_version,
+							'WordPress' => $wp_version,
 							'Theme' => $my_theme->get( 'Name' )." (".get_option('template').") ".$my_theme->get( 'Version' ),
 							'URL' => str_replace(array('http://','https://','www.'),'',get_option('home')),
 							'Plugins' => get_option('active_plugins')
