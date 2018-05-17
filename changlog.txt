@@ -43,7 +43,7 @@
 * changed: verbiage for postal/zip
 * changed: default css to be more robust
 * changed: replaced pixel slider with device-mock sizes
-* changed: replaced third party spectrum colour picker with default native wordpress one
+* changed: replaced third party spectrum colour picker with default native WordPress one
 * changed: new assets
 * changed: from SVG icons to dashicon for color changeable icons
 * added: language localization support

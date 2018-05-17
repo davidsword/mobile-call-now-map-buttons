@@ -75,7 +75,7 @@ If your theme has something hidden behind the buttons, or the buttons are above 
 
 = Advanced Options: Append to body =
 
-This plugin puts it’s HTML at the bottom of a page using Wordpress's `wp_footer` hook. As specified by WordPress:
+This plugin puts it’s HTML at the bottom of a page using WordPress's `wp_footer` hook. As specified by WordPress:
 
 > the `wp_footer` action. Put this template tag immediately before `</body>` tag in a theme template
 
